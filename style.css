@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navb{
+    
+    background-color:rgb(36, 13, 13);
+    height: 45px;
+    display: flex;
+    
+
+}
+ ul {
+    display: flex;
+    color: white;
+    margin-left: 480px;
+    margin-top: 0px;
+    justify-content: center;
+
+}
+.navb ul li{
+    list-style:none;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-size: 18px;
+    margin-top: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navb ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.right_nav_bar 
+{
+    margin-left: 250px;
+    margin-top: 6px;
+
+
+}
+button{
+    height: 35px;
+    width: 78px;
+    border-radius: 10px;
+    color:  #29d9d5;
+    border: 2px solid blue;
+
+    
+}
+button:hover{
+    
+    background-color:blue;
+    cursor: pointer;
+    
+}
+.header{
+    margin-top: 20px;
+    background-color:rgb(195, 195, 236);
+    margin-left: 66px;
+    margin-right: 76px;
+    height: 65px;
+
+}
+.row
+{
+    margin-top: 20px;
+    margin-left: 66px;
+    margin-right: 76px;
+}
+img{
+    height: 245px;
+    width: 345px;
+    margin-left: 52px;
+    margin-right: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+img:hover{
+    background-image: url('./camera.jpg');
+}
+.main1 h3{
+    color: #29d9d5;
+ }
+
+ .main1{
+    padding: 20px;
+    text-align: center;
+    background-color: #0C373E;
+    color: white;
+ }
+ .main1 p{
+    margin-top: 10px;
+ }
+ .main1 button:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+ 
+ .main1 button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+ }
+ .main1 h1{
+    margin-top: 10px;
+ }
+.main2{
+display: flex;
+justify-content: space-around;
+background-color: #010001;
+color: white;
+}
+
+.main2 div{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main2 input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.main2 button:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+.main2 button{
+    color:#29d9d5;
+    border: 1px solid #29d9d5;
+}
+h1 {
+    margin-left: 12px;
+}
+p {
+    margin-left: 12px;
+}
